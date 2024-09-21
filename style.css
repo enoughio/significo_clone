@@ -1,0 +1,30 @@
+
+
+body[theme="black"]{
+    background-color: black;
+}
+
+body[theme="black"] .section{
+    color: rgb(236, 221, 221);
+}
+
+body[theme="cymon"]{
+    background-color:rgb(52, 131, 184);
+}
+body[theme="cymon"] .section{
+    background-color:rgb(147, 188, 190);
+}
+
+body[theme="red"]{
+    background-color: rgb(196, 55, 55);
+}
+body[theme="red"] .section{
+    color: rgb(222, 234, 54);
+}
+
+body[theme="white"]{
+    background-color: rgb(211, 208, 208);
+}
+body[theme="white"] .section{
+    color: rgb(16, 2, 2);
+}

@@ -1,30 +1,43 @@
+:root{
+    --black:  black;
+    --dblack: rgb(236, 221, 221);
+    --cymon: #AEDEE0;
+    --dcymon : #000000
+    --red: rgb(196, 55, 55);
+    --dred: rgb(222, 234, 54);
+    --white:  rgb(211, 208, 208);
+    --dwhite: rgb(16, 2, 2);
+}
 
+*::selection{
+    background-color: rgba(139, 221, 181, 0.666);
+}
 
 body[theme="black"]{
-    background-color: black;
+    background-color: var(--black);
 }
 
 body[theme="black"] .section{
-    color: rgb(236, 221, 221);
+    color: var(--dblack);
 }
 
 body[theme="cymon"]{
-    background-color:rgb(52, 131, 184);
+    background-color: var(--cymon);
 }
 body[theme="cymon"] .section{
-    background-color:rgb(147, 188, 190);
+    color: var(--dcymon);
 }
 
 body[theme="red"]{
-    background-color: rgb(196, 55, 55);
+    background-color: var(--red);
 }
 body[theme="red"] .section{
-    color: rgb(222, 234, 54);
+    color: var(--dred);
 }
 
 body[theme="white"]{
-    background-color: rgb(211, 208, 208);
+    background-color: var(--white)
 }
 body[theme="white"] .section{
-    color: rgb(16, 2, 2);
+    color: var(--dwhite);
 }
